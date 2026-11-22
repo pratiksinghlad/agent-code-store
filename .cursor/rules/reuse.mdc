@@ -1,0 +1,6 @@
+---
+description: Search this knowledge base before adding a reusable script
+alwaysApply: true
+---
+
+Follow AGENTS.md. Read INDEX.md for the file path and description. Run a script with --help. Do not open its source unless you are fixing or extending it. Create one folder per script and update INDEX.md plus that language INDEX.md on add, edit, and delete.

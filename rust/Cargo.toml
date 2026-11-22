@@ -1,0 +1,14 @@
+[package]
+name = "agent-kb"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT"
+description = "Standalone binaries for the agent knowledge base."
+
+[[bin]]
+name = "json"
+path = "src/bin/json/main.rs"
+
+[dependencies]
+serde_json = { version = "1", default-features = false, features = ["std"] }
